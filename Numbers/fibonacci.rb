@@ -1,5 +1,3 @@
-#!/usr/bin/env ruby
-
 # limit - the amount of fibonacci numbers to be returned
 def fibonacci(limit)
     a = [0, 1]
