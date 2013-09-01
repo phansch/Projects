@@ -6,7 +6,7 @@
 			"answers": [
 				{
 					"id": "a",
-					"answer": "10"
+					"answer": 10
 				},
 				{
 					"id": "b",
@@ -25,21 +25,27 @@
 			"points": 5
 		},
 		{
-			"question": "Bla",
+			"question": "What's the average distance between Earth and Mars?",
 			"answers": [
 				{
-					"answer": "10"
+					"id": "a",
+					"answer": "225 million km",
+					"correct": true
 				},
 				{
-					"answer": 8
+					"id": "b",
+					"answer": "1566 million km"
 				},
 				{
-					"answer": 5
+					"id": "c",
+					"answer": "5 milliom km"
 				},
 				{
-					"answer": 9
+					"id": "d",
+					"answer": "90 million km"
 				}
-			]
+			],
+			"points": 5
 		}
 	]
 
