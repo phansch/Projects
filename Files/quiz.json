@@ -46,6 +46,75 @@
 				}
 			],
 			"points": 5
+		},
+		{
+			"question": "Roughly, how many stars are located in our galaxy?",
+			"answers": [
+				{
+					"id": "a",
+					"answer": "90-130 million"
+				},
+				{
+					"id": "b",
+					"answer": "100 thousand"
+				},
+				{
+					"id": "c",
+					"answer": "100-400 billion",
+					"correct": true
+				},
+				{
+					"id": "d",
+					"answer": "600-800 thousand"
+				}
+			],
+			"points": 5
+		},
+		{
+			"question": "What are comets made of?",
+			"answers": [
+				{
+					"id": "a",
+					"answer": "rock"
+				},
+				{
+					"id": "b",
+					"answer": "hydrogen"
+				},
+				{
+					"id": "c",
+					"answer": "ice and dust",
+					"correct": true
+				},
+				{
+					"id": "d",
+					"answer": "metal"
+				}
+			],
+			"points": 10
+		},
+		{
+			"question": "What type of galaxy is the Milky Way?",
+			"answers": [
+				{
+					"id": "a",
+					"answer": "spiral"
+				},
+				{
+					"id": "b",
+					"answer": "irregular"
+				},
+				{
+					"id": "c",
+					"answer": "elliptical"
+				},
+				{
+					"id": "d",
+					"answer": "barred-spiral",
+					"correct": true
+				}
+			],
+			"points": 10
 		}
 	]
 
