@@ -6,7 +6,7 @@ I'm using *Projects* to learn Ruby.
 Numbers
 ---------
 
-**Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
+**[Find PI to the Nth Digit](https://github.com/phansch/Projects/blob/master/Numbers/pi.rb)** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
 **[Fibonacci Sequence](https://github.com/phansch/Projects/blob/master/Numbers/fibonacci.rb)** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
@@ -45,7 +45,7 @@ Numbers
 Classic Algorithms
 -----------------
 
-**Collatz Conjecture** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
+**[Collatz Conjecture](https://github.com/phansch/Projects/blob/master/Classic%20Algorithms/collatz.rb)** - Start with a number *n > 1*. Find the number of steps it takes to reach one using the following process: If *n* is even, divide it by 2. If *n* is odd, multiply it by 3 and add 1.
 
 **Sorting** - Implement two types of sorting algorithms: Merge sort and bubble sort.
 
@@ -78,7 +78,7 @@ Text
 
 **[Check if Palindrome](https://github.com/phansch/Projects/blob/master/Text/palindrome.rb)** - Checks if the string entered by the user is a palindrome. That is that it reads the same forwards as backwards like “racecar”
 
-**Count Words in a String** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
+**[Count Words in a String](https://github.com/phansch/Projects/blob/master/Text/wordcount.rb)** - Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
 
 **Text Editor** - Notepad style application that can open, edit, and save text documents. *Optional: Add syntax highlighting and other features.*
 
