@@ -2,7 +2,7 @@ Mega Project List
 ========
 
 I'm using *Projects* to learn Ruby.
-Originally branched from [https://github.com/thekarangoel/Projects](https://github.com/thekarangoel/Projects)
+Originally forked from [https://github.com/thekarangoel/Projects](https://github.com/thekarangoel/Projects)
 
 Numbers
 ---------
