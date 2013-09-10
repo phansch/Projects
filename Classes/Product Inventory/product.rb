@@ -8,6 +8,6 @@ class Product
   end
 
   def to_s
-    @id.to_s + ": " + @price.to_s + "€. Amount: " + @quantity.to_s
+    "ID: " + @id.to_s + "; Price: " + @price.to_s + "€; Amount: " + @quantity.to_s
   end
 end
