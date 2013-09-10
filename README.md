@@ -2,7 +2,7 @@ Mega Project List
 ========
 
 I'm using *Projects* to learn Ruby.
-Originally branched from thekarangoel/Projects
+Originally branched from thekarangoel/Projects@65c87e0313214c5e84f41e48dc71139b7776ee6e
 
 Numbers
 ---------
