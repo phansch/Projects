@@ -35,29 +35,43 @@ end
 def main
   flights = create_dummy_flights
 
-  puts "Pick a flight: "
-  flights.each_with_index { |val, index| puts "#{index}: #{val.name}" }
+  loop do
+    puts "Press 'q' to quit"
+    puts "Select a flight: "
+    flights.each_with_index { |val, index| puts "#{index}: #{val.name}" }
 
-  id = gets.chomp.to_i
-  flight = flights[id]
+    print ':'
+    choice = gets.chomp
+    break if choice == 'q'
+    flight = flights[choice.to_i]
 
-  puts "Seats available: "
-  flight.to_s
+    puts "Seats available: "
+    flight.to_s
 
-  puts "Pick a class: "
-  puts "1. Economy"
-  puts "2. Business"
-  puts "3. First Class"
+    puts "Pick a class: "
+    puts "1: Economy"
+    puts "2: Business"
+    puts "3: First Class"
 
-  choice = gets.chomp.to_i
+    print ':'
+    choice = gets.chomp
 
-  case choice
-  when 1
-    flight.book(1)
-  when 2
-    flight.book(2)
-  when 3
-    flight.book(3)
+    case choice
+    when '1'
+      flight.book(1)
+      puts "Seat on flight #{flight.name} booked!"
+    when '2'
+      flight.book(2)
+      puts "Seat on flight #{flight.name} booked!"
+    when '3'
+      flight.book(3)
+      puts "Seat on flight #{flight.name} booked!"
+    when 'q'
+      break
+    else
+      puts "No such class"
+    end
+    puts "---------"
   end
 end
 
