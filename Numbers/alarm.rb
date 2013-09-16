@@ -1,4 +1,4 @@
-# Currently not playing an audio cue at the end
+require 'audite'
 
 def repeat_every(interval)
   loop do
@@ -10,10 +10,13 @@ def repeat_every(interval)
 end
 
 def main
+  player = Audite.new
+  player.load('alarm.mp3')
+
   print "Start a countdown (minutes): "
   countdown = gets.chomp.to_i
 
-  endtime = Time.now + (countdown)
+  endtime = Time.now + (countdown * 60)
 
   puts "Starttime: #{Time.now}"
   puts "Endtime: #{endtime}"
@@ -24,6 +27,7 @@ def main
       break
     end
   end
+  player.start_stream
 end
 
 main
