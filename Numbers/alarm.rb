@@ -1,5 +1,3 @@
-require 'audite'
-
 def repeat_every(interval)
   loop do
     start_time = Time.now
@@ -10,9 +8,6 @@ def repeat_every(interval)
 end
 
 def main
-  player = Audite.new
-  player.load('alarm.mp3')
-
   print "Start a countdown (minutes): "
   countdown = gets.chomp.to_i
 
@@ -27,7 +22,6 @@ def main
       break
     end
   end
-  player.start_stream
 end
 
 main
