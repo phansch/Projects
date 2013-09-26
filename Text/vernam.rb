@@ -1,13 +1,10 @@
-# Generates a key with a specified length
+# Generates a random key with a specified length
 def keygen(length)
-  #TODO: Implement random key generator
-
   key = ""
-  (1..length).each { |e|
-    #key += Math.rand(0, 128).chr
-    key += "5" #randomly chosen by dice
-  }
-  return key
+  (1..length).each do
+    key += Random.rand(0..128).chr
+  end
+  key
 end
 
 def encrypt(message, random_key)
@@ -19,7 +16,7 @@ def encrypt(message, random_key)
     message[e].each_byte { |byte| message_char = byte }
     random_key[e].each_byte { |byte| key_char = byte }
 
-    cipher += (message_char ^ key_char).chr
+    cipher += ((message_char ^ key_char) % 128).chr
   }
 
   cipher
@@ -34,8 +31,7 @@ def decrypt(cipher, random_key)
     cipher[e].each_byte { |byte| cipher_char = byte }
     random_key[e].each_byte { |byte| key_char = byte }
 
-    #puts (cipher_char ^ key_char)
-    message += (cipher_char ^ key_char).chr
+    message += ((cipher_char ^ key_char) % 128).chr
   }
   message
 end
