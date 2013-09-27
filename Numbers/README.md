@@ -5,11 +5,11 @@ Numbers
 
 **[Fibonacci Sequence](https://github.com/phansch/Projects/blob/master/Numbers/fibonacci.rb)** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
-**Prime Factorization** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
+**[Prime Factorization](https://github.com/phansch/Projects/blob/master/Numbers/prime_factors.rb)** - Have the user enter a number and find all Prime Factors (if there are any) and display them.
 
-**Next Prime Number** - Have the program find prime numbers until the user chooses to stop asking for the next one.
+**[Next Prime Number](https://github.com/phansch/Projects/blob/master/Numbers/next_prime.rb)** - Have the program find prime numbers until the user chooses to stop asking for the next one.
 
-**Find Cost of Tile to Cover W x H Floor** - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
+**[Find Cost of Tile to Cover W x H Floor](https://github.com/phansch/Projects/blob/master/Numbers/tilefloor.rb)** - Calculate the total cost of tile it would take to cover a floor plan of width and height, using a cost entered by the user.
 
 **Mortgage Calculator** - Calculate the monthly payments of a fixed term mortgage over given Nth terms at a given interest rate. Also figure out how long it will take the user to pay back the loan.
 
@@ -17,9 +17,9 @@ Numbers
 
 **[Binary to Decimal and Back Converter](https://github.com/phansch/Projects/blob/master/Numbers/bin_dec_converter.rb)** - Develop a converter to convert a decimal number to binary or a binary number to its decimal equivalent.
 
-**Calculator** - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
+**[Calculator](https://github.com/phansch/Projects/blob/master/Numbers/calc.rb)** - A simple calculator to do basic operators. Make it a scientific calculator for added complexity.
 
-**Unit Converter (temp, currency, volume, mass and more)** - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
+**[Unit Converter (temp, currency, volume, mass and more)](https://github.com/phansch/Projects/blob/master/Numbers/units.rb)** - Converts various units between one another. The user enters the type of unit being entered, the type of unit they want to convert to and then the value. The program will then make the conversion.
 
 **[Alarm Clock](https://github.com/phansch/Projects/blob/master/Numbers/alarm.rb)** - A simple clock where it plays a sound after X number of minutes/seconds or at a particular time.
 
@@ -31,7 +31,7 @@ Numbers
 
 **Dijkstra’s Algorithm** - Create a program that finds the shortest path through a graph using its edges.
 
-**Factorial Finder** - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.
+**[Factorial Finder](https://github.com/phansch/Projects/blob/master/Numbers/fac.rb)** - The Factorial of a positive integer, n, is defined as the product of the sequence n, n-1, n-2, ...1 and the factorial of zero, 0, is defined as being 1. Solve this using both loops and recursion.
 
 **Complex Number Algebra** - Show addition, multiplication, negation, and inversion of complex numbers in separate functions. (Subtraction and division operations can be made with pairs of these operations.) Print the results for each operation tested.
 
