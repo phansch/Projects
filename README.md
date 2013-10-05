@@ -41,7 +41,7 @@ Numbers
 
 **[Happy Numbers](https://github.com/phansch/Projects/blob/master/Numbers/happy_numbers.rb)** - A happy number is defined by the following process. Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers, while those that do not end in 1 are unhappy numbers. Display an example of your output here. Find first 8 happy numbers.
 
-**Number Names** - Show how to spell out a number in English. You can use a preexisting implementation or roll your own, but you should support inputs up to at least one million (or the maximum value of your language's default bounded integer type, if that's less). *Optional: Support for inputs other than positive integers (like zero, negative integers, and floating-point numbers).*
+**[Number Names](https://github.com/phansch/learn_ruby_solutions/blob/master/15_in_words/in_words.rb))** - Show how to spell out a number in English. You can use a preexisting implementation or roll your own, but you should support inputs up to at least one million (or the maximum value of your language's default bounded integer type, if that's less). *Optional: Support for inputs other than positive integers (like zero, negative integers, and floating-point numbers).*
 
 Classic Algorithms
 -----------------
@@ -73,7 +73,7 @@ Text
 
 **[Reverse a String](https://github.com/phansch/Projects/blob/master/Text/string-reverse.rb)** - Enter a string and the program will reverse it and print it out.
 
-**Pig Latin** - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
+**[Pig Latin](https://github.com/phansch/learn_ruby_solutions/blob/master/04_pig_latin/pig_latin.rb)** - Pig Latin is a game of alterations played on the English language game. To create the Pig Latin form of an English word the initial consonant sound is transposed to the end of the word and an ay is affixed (Ex.: "banana" would yield anana-bay). Read Wikipedia for more information on rules.
 
 **[Count Vowels](https://github.com/phansch/Projects/blob/master/Text/vowels.rb)** - Enter a string and the program counts the number of vowels in the text. For added complexity have it report a sum of each vowel found.
 

@@ -18,4 +18,4 @@ def fac_recursive(n, fac_total)
   end
 end
 
-puts fac_recursive(5, 1)
+puts fac_loop(2)
